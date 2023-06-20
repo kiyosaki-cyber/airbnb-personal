@@ -1,0 +1,87 @@
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color:black;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  
+}
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+ 
+}
+.cardlist{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    border: none;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  flex: 0 0 auto;
+  border: 1px solid black;
+  border-radius: 9px;
+}
+img{
+  border-radius: 9px;
+}
+.airbnb{
+  max-width: 100px;
+
+}
+.hero--photo{
+  display: flex;
+  flex-direction: row;
+  margin-top:10px ;
+  margin-left: 0;
+  height: 200px;
+  max-width: 100%;
+}
+.motorbike{
+  height: 150px;
+}
+.star{
+  height: 30px;
+}
+.ratings{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap:0.5rem;
+
+}
+#para{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+span{
+  font-weight: 750;
+}
+
+
